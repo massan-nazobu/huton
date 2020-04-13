@@ -26,12 +26,12 @@ z-index: 9999;
 
 p.image2 {
 text-align: right;
-margin-top: -240px;
+margin-top: -18%;
 }
 
 p.image3 {
-margin-top: -300px;
-margin-left: 50px;
+margin-top: -20%;
+margin-left: 5%;
 }
 
 p.image4 {
@@ -53,3 +53,4 @@ margin-top: 80px;
 div.bun {
 text-align: center;
 }
+
