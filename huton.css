@@ -1,0 +1,55 @@
+body {
+background: #000000;
+}
+
+img.sleep {
+width: 20%
+}
+
+img.bed {
+z-index: 9;
+width: 25%;
+}
+
+img.title {
+width: 60%;
+}
+
+img.key {
+width: 40%;
+}
+
+p.image {
+text-align: right;
+z-index: 9999;
+}
+
+p.image2 {
+text-align: right;
+margin-top: -240px;
+}
+
+p.image3 {
+margin-top: -300px;
+margin-left: 50px;
+}
+
+p.image4 {
+text-align: center;
+display: none;
+}
+
+p.image5 {
+text-align: center;
+}
+
+p.bun {
+text-align: center;
+color: #ffffff;
+font-size: 20px;
+margin-top: 80px;
+}
+
+div.bun {
+text-align: center;
+}
