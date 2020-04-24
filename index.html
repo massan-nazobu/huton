@@ -32,8 +32,6 @@ $(function(){
 
 <body>
 <div class="content">
-<p class="image"><img src="image/sleep.png" class="sleep"></p>
-<p class="image2"><img src="image/bed.png" class="bed"></p>
 <p class="image3"><img src="image/title.jpeg" class="title"></p>
 <p>　</p>
 <p class="bun">朝というものには慣れない。</p>
@@ -44,6 +42,8 @@ $(function(){
 <p class="bun">でも、そろそろここから出なきゃな...</p>
 <p class="bun">・</p>
 <p class="bun">・</p>
+<p class="image"><img src="image/sleep.png" class="sleep"></p>
+<p class="image2"><img src="image/bed.png" class="bed"></p>
 <p class="bun">・</p>
 <p class="bun">・</p>
 <p class="bun">あれ...？</p>
@@ -55,16 +55,22 @@ $(function(){
 <p class="image5"><img src="image/nazo3.jpeg" class="key"></p>
 <p class="image5"><img src="image/nazo1.jpeg" class="key"></p>
 	<p class="image4" id="new"><img src="image/key.jpeg" class="key"></p>
+	<p class="image4" id="answer"><img src="image/clear.png" class="key"></p>
+	<p class="image4" id="answer2"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Web謎「起きられない朝からの脱出」をクリアしました！" data-url="https://massan-nazobu.github.io/huton/" data-via="KG_nazomasu" data-hashtags="布団謎" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 <div class="bun"><form name="js"><input type="text" name="txtb" value=""><input type="button" value="解答する" onclick="tbox1()"></div>
-	<p class="image4"><img src="image/key.jpeg" class="key" id="new"></p>
+	
 	<script>
 function tbox1(){
 
   var str1=document.js.txtb.value;
   if (str1 == 'けーす'){
 	  $('#new').fadeIn(3000);
-		}else{
+		}else if (str1 == 'ねたい'){
+		$('#answer').fadeIn(3000);
+		$('#answer2').fadeIn(3000);
+}
+	else{
 		 alert("不正解です。");
 		}
 
