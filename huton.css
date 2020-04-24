@@ -20,18 +20,18 @@ width: 40%;
 }
 
 p.image {
-text-align: right;
+text-align: center;
 z-index: 9999;
 }
 
 p.image2 {
-text-align: right;
+text-align: center;
 margin-top: -18%;
+margin-right: 3%;
 }
 
 p.image3 {
-margin-top: -20%;
-margin-left: 5%;
+text-align: center;
 }
 
 p.image4 {
@@ -53,4 +53,3 @@ margin-top: 80px;
 div.bun {
 text-align: center;
 }
-
